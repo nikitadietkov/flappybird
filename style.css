@@ -22,7 +22,6 @@ body {
 }
 
 canvas {
-    transform: scale(3) translateY(200px);
     box-shadow: 0 0 15px 15px rgb(0, 0, 0, 0.2);
 }
 
