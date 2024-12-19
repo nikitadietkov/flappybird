@@ -1,0 +1,28 @@
+@font-face {
+    font-family: KillerGrandma;
+    src: url(/fonts/Killer\ Grandma.ttf);
+}
+
+body {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/img/background.jpg");
+}
+
+.wrapper {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "KillerGrandma";
+    font-size: 110%;
+    position: absolute;
+
+}
+
+canvas {
+    transform: scale(3) translateY(200px);
+    box-shadow: 0 0 15px 15px rgb(0, 0, 0, 0.2);
+}
+
